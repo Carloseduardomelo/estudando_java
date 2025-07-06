@@ -12,7 +12,14 @@ public class arrys {
         namesNinja[1] = "Sasuke";
         namesNinja[2] = "Hinata";
 
-        System.out.println(namesNinja[0]);
+        //System.out.println(namesNinja[0]);
+
+
+        // Usando o For para percorrer uma arrys
+
+        for ( int i = 0 ; i < 3; i++){
+            System.out.println(namesNinja[i]);
+        }
 
     }
 }
