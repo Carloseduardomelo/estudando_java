@@ -7,14 +7,19 @@ public class Main {
         * Tudo em java e um objeto
         * */
 
-
         //criando um ninja naruto com umas class. Podemos criar varios ninjas usando a class ninja.
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.Name = "Naruto";
         Naruto.Idade = 19;
         Naruto.Aldeia = "Aldeia da folha";
+        Naruto.AtivacaoDoModoSabio();
 
-        System.out.println(Naruto.Name);
+        // criando sasuke
+        Uchira sasuke = new Uchira();
+        sasuke.Name = "Sasuke";
+        sasuke.Idade = 18;
+        sasuke.Aldeia = "folha";
+        sasuke.CharinganAtividado();
 
     }
 }
