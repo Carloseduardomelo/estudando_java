@@ -15,9 +15,9 @@ public class main {
         System.out.println("montrando a referencia de menoria do Arry = " + ninjasArrys);
 
         //List
-        List<String> ninjasList = new ArrayList<>();
+        List<Integer> ninjasList = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
-            ninjasList.add("oi");
+            ninjasList.add(i);
         }
         System.out.println(ninjasList);
 
