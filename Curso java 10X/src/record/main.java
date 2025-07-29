@@ -5,6 +5,5 @@ public class main {
 
         ninjaRecord ninja = new ninjaRecord("naruto" , 14);
         System.out.println(ninja);
-
     }
 }
