@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class main {
     public static void main(String[] args) {
-
         // Stack e uma piçha como um historico de navegador.
 
         // Creação do stack.
@@ -27,7 +26,6 @@ public class main {
         // Para limpar a stack.
         historico.clear();
         System.out.println(historico);
-
 
     }
 }
